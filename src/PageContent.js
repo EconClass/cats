@@ -4,7 +4,7 @@ import './PageContent.css';
 
 function PageContent() {
   return (
-    <div className="grid-container">
+    <div className="PageContent">
       <Project title="Tetris Dots" image="/images/kitten-0.jpeg" link="#" />
       <Project title="Zombie Server" image="/images/kitten-1.jpeg" link="#" />
       <Project title="Amazing Colors" image="/images/kitten-2.jpeg" link="#" />
