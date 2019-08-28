@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import PageHeader from './PageHeader';
 import PageContent from './PageContent';
+import Copyright from './Copyright';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         <PageHeader />
         <PageContent />
+        <Copyright owner="EconClass" />
       </header>
     </div>
   );
