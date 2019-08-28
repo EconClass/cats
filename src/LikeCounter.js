@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import './LikeCounter.css';
 
 
 class LikeCounter extends Component {
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
       count: 0
